@@ -1,0 +1,19 @@
+{
+  "name": "coins",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "author": "anton kulakov",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha --reporter spec tests/test.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
